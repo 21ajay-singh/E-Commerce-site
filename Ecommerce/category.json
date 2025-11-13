@@ -1,0 +1,50 @@
+{
+  "userLoginDetails": [],
+  "types": [
+    {
+      "name": "Electronics",
+      "brands": "HP",
+      "id": "2ca7"
+    },
+    {
+      "name": "Fashion",
+      "brands": "Polo",
+      "id": "46ed"
+    },
+    {
+      "name": "Home & Kitchen",
+      "brands": "prestieg",
+      "id": "7dde"
+    },
+    {
+      "name": "Books",
+      "brands": "Monks",
+      "id": "e230"
+    },
+    {
+      "name": "Sports",
+      "brands": "basketball",
+      "id": "09ac"
+    },
+    {
+      "name": "Footwear",
+      "brands": "redtap",
+      "id": "5687"
+    },
+    {
+      "name": "makeUp",
+      "brands": "lakemey",
+      "id": "0a96"
+    },
+    {
+      "name": "clothes",
+      "brands": "Zudio",
+      "id": "e483"
+    },
+    {
+      "name": "Organizations",
+      "brands": "Amazon",
+      "id": "c4b4"
+    }
+  ]
+}

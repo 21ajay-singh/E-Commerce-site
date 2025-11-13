@@ -1,0 +1,164 @@
+/* ---------- CONTACT PAGE BACKGROUND ---------- */
+.contact-page {
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  color: #0d47a1;
+  padding: 80px 40px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* ---------- HERO SECTION ---------- */
+.contact-hero {
+  margin-bottom: 60px;
+}
+
+.contact-hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.contact-hero span {
+  color: #1565c0;
+}
+
+.contact-hero p {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ---------- CONTACT FORM CONTAINER ---------- */
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+/* ---------- FORM STYLING ---------- */
+.contact-form {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  max-width: 450px;
+  width: 100%;
+  animation: fadeSlide 0.8s ease;
+}
+
+.contact-form h2 {
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+  color: #1565c0;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #1565c0;
+  box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.15);
+}
+
+.contact-form button {
+  width: 100%;
+  background: linear-gradient(90deg, #1565c0, #42a5f5);
+  color: white;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(90deg, #0d47a1, #2196f3);
+  transform: translateY(-2px);
+}
+
+/* ---------- CONTACT INFO SECTION ---------- */
+.contact-info {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+  text-align: left;
+}
+
+.contact-info h2 {
+  font-size: 1.6rem;
+  color: #1565c0;
+  margin-bottom: 20px;
+}
+
+/* ---------- MAP PLACEHOLDER ---------- */
+.contact-map {
+  margin-top: 80px;
+  height: 400px;
+  background: #bbdefb;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin-inline: auto;
+  box-shadow: 0 4px 12px rgba(21, 101, 192, 0.2);
+  animation: fadeIn 1s ease-in;
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 60px 20px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-map {
+    height: 300px;
+  }
+}
